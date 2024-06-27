@@ -7,15 +7,241 @@
         {"id": 5, "title": "Dishwashers"}
     ],
     "products": [
-        {"id": 1, "catId": 1, "title": "Beko White Fridge Freezer"},
-        {"id": 2, "catId": 1, "title": "Samsung Silver Fridge"},
-        {"id": 3, "catId": 2, "title": "LG Front Load Washing Machine"},
-        {"id": 4, "catId": 2, "title": "Bosch Top Load Washing Machine"},
-        {"id": 5, "catId": 3, "title": "Siemens Electric Oven"},
-        {"id": 6, "catId": 3, "title": "Bosch Built-In Oven"},
-        {"id": 7, "catId": 4, "title": "Panasonic Microwave Oven"},
-        {"id": 8, "catId": 4, "title": "Samsung Countertop Microwave"},
-        {"id": 9, "catId": 5, "title": "Bosch Dishwasher"},
-        {"id": 10, "catId": 5, "title": "Siemens Fully Integrated Dishwasher"}
+        {
+            "id": 1,
+            "catId": 1,
+            "title": "Beko White Fridge Freezer",
+            "productCode": "BFFD3577",
+            "image": "BekoWhiteFridgeFreezer.jpeg",
+            "price": 5790,
+            "sku": "577318",
+            "description": "Attractive Design\n\nThe Beko BFFD3577 Integrated Tall Freezer has a 220-litre capacity, providing ample space for all your frozen food needs. Designed with a sleek, modern aesthetic, it seamlessly fits into any kitchen decor. This fridge freezer features an A+ energy rating, ensuring that it is environmentally friendly and cost-efficient. The interior includes adjustable shelves and a dedicated ice box, making it versatile for different storage needs.",
+            "specs": {
+                "dimensions": "177.5 x 54 x 54.5cm (H x W x D)",
+                "capacity": "220 litres"
+            },
+            "features": [
+                "No need to defrost with frost-free technology, which prevents ice build-up and saves you time and effort.",
+                "Suitable for outbuildings, allowing you to place it in a garage or an outdoor setting without worry.",
+                "The door alarm alerts you if the door is left open, helping to maintain the ideal temperature inside the fridge freezer.",
+                "LED lighting ensures a bright and clear view of the interior, making it easy to locate items even in low light conditions.",
+                "Fast freeze function rapidly freezes fresh food, locking in nutrients and preserving the quality.",
+                "Reversible doors offer flexible installation options, allowing you to configure the door to open in the direction that best suits your kitchen layout."
+            ],
+            "stock": 20
+        },
+        {
+            "id": 2,
+            "catId": 1,
+            "title": "Samsung Silver Fridge",
+            "productCode": "SSRF4567",
+            "image": "SamsungSilverFridge.jpeg",
+            "price": 6990,
+            "sku": "456789",
+            "description": "The Samsung Silver Fridge SSRF4567 is a top-of-the-line refrigerator designed to meet all your cooling needs. With a generous capacity of 300 litres, it provides ample space for all your groceries and beverages. The sleek silver finish adds a touch of elegance to any kitchen, while its energy-efficient design ensures lower electricity bills. This fridge is equipped with advanced cooling technology to keep your food fresher for longer.",
+            "specs": {
+                "dimensions": "185 x 70 x 68cm (H x W x D)",
+                "capacity": "300 litres"
+            },
+            "features": [
+                "Twin Cooling Plus technology provides independent cooling for the fridge and freezer, preventing odour mixing and keeping your food fresher for longer.",
+                "Multi Flow air vents ensure even cooling throughout the fridge, maintaining a consistent temperature on every shelf.",
+                "The water and ice dispenser offers convenient access to fresh, filtered water and ice without opening the door.",
+                "Digital Inverter Technology adjusts the compressor speed in response to cooling demand, ensuring quieter operation and greater energy efficiency.",
+                "The built-in deodorizing filter eliminates unwanted odours, ensuring that your fridge always smells fresh.",
+                "Spill-proof glass shelves contain spills and make cleanup easy, while the adjustable shelving provides flexible storage options."
+            ],
+            "stock": 15
+            },
+            {
+                "id": 3,
+                "catId": 2,
+                "title": "LG Front Load Washing Machine",
+                "productCode": "LFW1234",
+                "image": "LGFrontLoadWashingMachine.jpeg",
+                "price": 4590,
+                "sku": "789012",
+                "description": "The LG Front Load Washing Machine LFW1234 combines innovative technology with stylish design to deliver a superior washing experience. With a capacity of 8 kg, it is perfect for medium to large households. This washing machine features a variety of wash programs and advanced features to ensure your clothes are cleaned thoroughly and efficiently. The sleek design and user-friendly interface make it a great addition to any laundry room.",
+                "specs": {
+                    "dimensions": "85 x 60 x 56cm (H x W x D)",
+                    "capacity": "8 kg"
+                },
+                "features": [
+                    "6 Motion Direct Drive technology moves the drum in multiple directions, providing a thorough yet gentle clean.",
+                    "Steam Wash feature penetrates fabrics to eliminate dirt, allergens, and wrinkles, ensuring your clothes come out fresh and clean.",
+                    "Inverter Direct Drive motor is not only energy efficient but also provides quieter operation and increased durability.",
+                    "SmartThinQ technology allows you to control and monitor your washing machine from your smartphone, offering convenience and flexibility.",
+                    "The TurboWash feature reduces washing time without compromising on cleaning performance, saving you time and energy.",
+                    "Child Lock function ensures the safety of your little ones by preventing them from accidentally changing the settings."
+                ],
+                "stock": 10
+            },
+            {
+                "id": 4,
+                "catId": 2,
+                "title": "Bosch Top Load Washing Machine",
+                "productCode": "BTLW5678",
+                "image": "BoschTopLoadWashingMachine.jpeg",
+                "price": 3990,
+                "sku": "345678",
+                "description": "The Bosch Top Load Washing Machine BTLW5678 offers exceptional washing performance with a generous capacity of 10 kg, making it ideal for large households. Designed with advanced technology and user-friendly features, this washing machine ensures that your clothes are washed efficiently and with care. Its robust build and modern design make it a durable and stylish addition to any laundry room.",
+                "specs": {
+                    "dimensions": "90 x 60 x 65cm (H x W x D)",
+                    "capacity": "10 kg"
+                },
+                "features": [
+                    "PowerWave Plus technology delivers a dynamic water flow system that provides thorough cleaning and gentle treatment of clothes.",
+                    "DualDispenser ensures the optimal distribution of detergent and softener, enhancing washing results.",
+                    "The One-Touch Start feature automatically selects the optimal wash program based on the load, making it convenient and easy to use.",
+                    "Magic Filter effectively gathers lint and fluff from your clothes, ensuring cleaner laundry and preventing clogging of the drainage system.",
+                    "Soft Closing Lid provides a gradual, gentle lid closure to prevent accidental injuries and improve user safety.",
+                    "The Drum Clean feature keeps the drum fresh and clean, ensuring hygiene and prolonging the lifespan of the washing machine."
+                ],
+                "stock": 12
+            },
+            {
+                "id": 5,
+                "catId": 3,
+                "title": "Siemens Electric Oven",
+                "productCode": "SEO3456",
+                "image": "SiemensElectricOven.jpeg",
+                "price": 8490,
+                "sku": "901234",
+                "description": "The Siemens Electric Oven SEO3456 combines cutting-edge technology with sleek design to deliver outstanding cooking performance. With a spacious 71-litre capacity, this oven is perfect for families and avid home cooks. It features multiple cooking functions and advanced heating technology to ensure even and precise cooking results. The modern design and intuitive controls make it a stylish and practical addition to any kitchen.",
+                "specs": {
+                    "dimensions": "59.5 x 59.4 x 54.8cm (H x W x D)",
+                    "capacity": "71 litres"
+                },
+                "features": [
+                    "4D HotAir technology ensures even heat distribution for perfect results on any shelf.",
+                    "Rapid Heating feature preheats the oven quickly, saving you time and energy.",
+                    "The TFT display provides clear and easy-to-read information, making it simple to navigate through the various settings and functions.",
+                    "EcoClean Direct coating reduces cleaning effort by breaking down grease and food residue as you cook.",
+                    "SoftClose door mechanism ensures gentle and quiet closing of the oven door, enhancing safety and convenience.",
+                    "Integrated meat probe allows you to monitor the internal temperature of your roast, ensuring perfect cooking results every time.",
+                    "The Sabbath mode is designed for religious observances, allowing the oven to operate at a preset temperature for an extended period."
+                ],
+                "stock": 8
+            },
+            {
+                "id": 6,
+                "catId": 3,
+                "title": "Bosch Built-In Oven",
+                "productCode": "BBO6789",
+                "image": "BoschBuiltInOven.jpeg",
+                "price": 7990,
+                "sku": "567890",
+                "description": "The Bosch Built-In Oven BBO6789 is designed to deliver professional-level cooking results in your home kitchen. With a large 71-litre capacity and a range of advanced features, this oven offers flexibility and precision for all your cooking needs. The sleek, built-in design seamlessly integrates into your kitchen, providing a modern and sophisticated look. Its user-friendly interface and innovative technology make it an excellent choice for both novice and experienced cooks.",
+                "specs": {
+                    "dimensions": "59.5 x 59.4 x 54.8cm (H x W x D)",
+                    "capacity": "71 litres"
+                },
+                "features": [
+                    "HotAir Eco technology provides efficient and even cooking, reducing energy consumption while delivering perfect results.",
+                    "The AutoPilot 10 feature includes 10 pre-set automatic programs, taking the guesswork out of cooking.",
+                    "Pyrolytic self-cleaning function heats the oven to a high temperature to burn off grease and food residue, making cleaning effortless.",
+                    "The intuitive control ring allows for precise and easy adjustments to settings and cooking times.",
+                    "SoftClose door technology ensures the oven door closes gently and quietly, enhancing safety and convenience.",
+                    "Telescopic rails provide easy access to your dishes, allowing for safer handling of hot trays and pans.",
+                    "Built-in meat probe monitors the internal temperature of your food, ensuring perfectly cooked meals every time."
+                ],
+                "stock": 10
+            },
+            {
+                "id": 7,
+                "catId": 4,
+                "title": "Panasonic Microwave Oven",
+                "productCode": "PMO1234",
+                "image": "PanasonicMicrowaveOven.jpeg",
+                "price": 2490,
+                "sku": "678901",
+                "description": "The Panasonic Microwave Oven PMO1234 combines powerful performance with sleek design, making it an essential addition to any kitchen. With a 32-litre capacity and multiple cooking functions, this microwave oven is perfect for quickly preparing meals and snacks. Its advanced technology ensures even cooking and defrosting, while the user-friendly interface makes it easy to use. The modern design fits seamlessly into any kitchen decor.",
+                "specs": {
+                    "dimensions": "31 x 52 x 39.5cm (H x W x D)",
+                    "capacity": "32 litres"
+                },
+                "features": [
+                    "Inverter technology provides precise power control and ensures even cooking and defrosting.",
+                    "Genius Sensor automatically adjusts cooking time and power level for optimal results.",
+                    "Turbo Defrost function speeds up defrosting time, making it more efficient and convenient.",
+                    "The Keep Warm feature maintains the temperature of your food until it's ready to be served.",
+                    "Child Lock function prevents accidental operation, ensuring safety in households with children.",
+                    "Quick 30 function allows you to quickly start the microwave with a 30-second burst of high power.",
+                    "The sleek stainless steel design adds a modern touch to your kitchen and is easy to clean."
+                ],
+                "stock": 25
+            },
+            {
+                "id": 8,
+                "catId": 4,
+                "title": "Samsung Countertop Microwave",
+                "productCode": "SCM5678",
+                "image": "SamsungCountertopMicrowave.jpeg",
+                "price": 1990,
+                "sku": "890123",
+                "description": "The Samsung Countertop Microwave SCM5678 is a versatile and powerful appliance designed to make your cooking tasks easier and more efficient. With a 28-litre capacity, it is ideal for families and individuals who need a reliable microwave for everyday use. Featuring advanced cooking technology and a user-friendly interface, this microwave ensures even cooking and easy operation. Its sleek design complements any kitchen decor.",
+                "specs": {
+                    "dimensions": "29.7 x 51.7 x 38.3cm (H x W x D)",
+                    "capacity": "28 litres"
+                },
+                "features": [
+                    "Triple Distribution System .",
+                    "Ceramic Enamel Interior is scratch-resistant",
+                    "Eco Mode reduces standby power consumption",
+                    "Auto Cook functions.",
+                    "Deodorization function.",
+                    "Child Safety Lock.",
+                    "LED display and intuitive controls."
+                ],
+                "stock": 30
+            },
+            {
+                "id": 9,
+                "catId": 5,
+                "title": "Bosch Dishwasher",
+                "productCode": "BDW2345",
+                "image": "BoschDishwasher.jpeg",
+                "price": 6590,
+                "sku": "345678",
+                "description": "The Bosch Dishwasher BDW2345 is a high-performance appliance designed to make dishwashing easy and efficient. With a capacity to hold 14 place settings, this dishwasher is perfect for large families and those who love to entertain. It features advanced cleaning technology and energy-efficient operation, ensuring your dishes come out sparkling clean every time. The sleek design and quiet operation make it a stylish and practical addition to any kitchen.",
+                "specs": {
+                    "dimensions": "84.5 x 60 x 60cm (H x W x D)",
+                    "capacity": "14 place settings"
+                },
+                "features": [
+                    "EcoSilence Drive ensures efficient and quiet operation, making it ideal for open-plan living spaces.",
+                    "AquaStop system provides 24/7 protection against water damage, giving you peace of mind.",
+                    "LoadSensor automatically adjusts water and energy usage based on the load size, optimizing performance and efficiency.",
+                    "VarioDrawer provides an extra level of flexibility for loading cutlery and smaller items, freeing up space in the lower basket.",
+                    "HygienePlus option increases the temperature during the final rinse, ensuring hygienic cleaning and removing bacteria.",
+                    "Glass Protection technology gently cleans and protects delicate glassware, preventing damage and ensuring a sparkling finish.",
+                    "The Auto Program automatically selects the best cleaning cycle for your dishes, ensuring perfect results every time."
+                ],
+                "stock": 20
+            },
+            {
+                "id": 10,
+                "catId": 5,
+                "title": "Siemens Fully Integrated Dishwasher",
+                "productCode": "SFID6789",
+                "image": "SiemensFullyIntegratedDishwasher.jpeg",
+                "price": 7290,
+                "sku": "789012",
+                "description": "The Siemens Fully Integrated Dishwasher SFID6789 offers exceptional performance and seamless integration into your kitchen. With a capacity to hold 14 place settings, this dishwasher is perfect for both everyday use and special occasions. It features advanced cleaning technology, energy-efficient operation, and a sleek, fully integrated design that blends effortlessly with your kitchen cabinetry. The quiet operation and user-friendly interface make it a practical and stylish addition to any home.",
+                "specs": {
+                    "dimensions": "81.5 x 59.8 x 55cm (H x W x D)",
+                    "capacity": "14 place settings"
+                },
+                "features": [
+                    "Home Connect allows you to control and monitor your dishwasher remotely via your smartphone, offering convenience and flexibility.",
+                    "Zeolith drying technology ensures perfectly dry and spotless dishes by absorbing moisture and converting it to heat.",
+                    "IntensiveZone option increases the water pressure in the lower basket for heavily soiled pots and pans, ensuring thorough cleaning.",
+                    "TimeLight projects the remaining cycle time onto the floor, keeping you informed of the dishwasher’s status.",
+                    "FlexComfort baskets provide flexible and convenient loading options for different types of dishes and utensils.",
+                    "Machine Care program keeps your dishwasher clean and running smoothly by removing limescale and grease buildup.",
+                    "The AquaStop system offers 24/7 protection against water damage, providing peace of mind."
+                ],
+                "stock": 15
+            }
     ]
 }
