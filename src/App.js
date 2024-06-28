@@ -3,7 +3,7 @@ import './App.css';
 
 import { fetcher,getCategories,getProducts } from './fetcher';
 import Category from './components/Category';
-import CategoryProduct from './db/categoryProduct';
+import CategoryProduct from './components/categoryProduct';
 
 function App() {
   const [categories, setCategories] = useState({errorMessage: '',data:[]});
@@ -33,7 +33,7 @@ useEffect(() => {
 
   const renderProducts=()=>{
     return products.data.map(p=>
-      <CategoryProduct{...p}>{p.title}</CategoryProduct>
+      <CategoryProduct key={p.id}{...p}>{p.title}</CategoryProduct>
     );
   }
 

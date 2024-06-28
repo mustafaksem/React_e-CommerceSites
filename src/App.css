@@ -57,6 +57,7 @@ article{
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.25fr 1 fr 0.25fr;
   column-gap: 20px;
+  padding-top: 20px;
 }
 
 
@@ -69,10 +70,10 @@ footer{
 
 .category-product-title{
   grid-column: 1/span 3;
-  color:darkslategray;
+  color:darkslategray !important;
   font-weight: bold;
   font-size: 1.5em;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 .category-product-image-container{
@@ -89,7 +90,7 @@ footer{
   display: flex;
 }
 
-.category-product-info-finance-price{
+.category-product-finance-price{
   color:darkslategray;
   font-size: 2em;
   font-weight: bold;
@@ -118,20 +119,20 @@ footer{
   padding-top: 5px;
 }
 
-.category-product-info-stock {
+.category-product-finance-stock {
   padding-left: 10px;
   margin-top: 20px;
   padding-top: 10px;
   background-color: lightgrey;
-  height: 20%;
-  width: 30%;
+  height: 60px;
+  width: 35%;
   border-radius: 5px;
   font-weight: bold;
   display: flex;
   flex-direction: column;
 }
 
-.category-product-info-stock label{
+.category-product-finance-stock label{
   padding-bottom: 5px;
 }
 
@@ -160,4 +161,10 @@ footer{
     -webkit-flex-direction:column;
     flex-direction: column;
   }
+}
+
+
+
+.no-click {
+  color: darkslategrey; /* İsteğe bağlı: Bağlantının tıklanamaz olduğunu belirtmek için rengi değiştirebilirsiniz */
 }

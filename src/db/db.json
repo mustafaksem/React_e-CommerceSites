@@ -1,10 +1,14 @@
 {
     "categories": [
         {"id": 1, "title": "Fridges"},
-        {"id": 2, "title": "Washing Machines"},
+        {"id": 2, "title": "Washer"},
         {"id": 3, "title": "Ovens"},
         {"id": 4, "title": "Microwaves"},
-        {"id": 5, "title": "Dishwashers"}
+        {"id": 5, "title": "Dishwashers"},
+        {"id": 6, "title": "Television"},
+        {"id": 7, "title": "Computer"}
+
+
     ],
     "products": [
         {
@@ -25,9 +29,8 @@
                 "Suitable for outbuildings, allowing you to place it in a garage or an outdoor setting without worry.",
                 "The door alarm alerts you if the door is left open, helping to maintain the ideal temperature inside the fridge freezer.",
                 "LED lighting ensures a bright and clear view of the interior, making it easy to locate items even in low light conditions.",
-                "Fast freeze function rapidly freezes fresh food, locking in nutrients and preserving the quality.",
-                "Reversible doors offer flexible installation options, allowing you to configure the door to open in the direction that best suits your kitchen layout."
-            ],
+                "Fast freeze function rapidly freezes fresh food, locking in nutrients and preserving the quality."
+             ],
             "stock": 20
         },
         {
@@ -48,15 +51,14 @@
                 "Multi Flow air vents ensure even cooling throughout the fridge, maintaining a consistent temperature on every shelf.",
                 "The water and ice dispenser offers convenient access to fresh, filtered water and ice without opening the door.",
                 "Digital Inverter Technology adjusts the compressor speed in response to cooling demand, ensuring quieter operation and greater energy efficiency.",
-                "The built-in deodorizing filter eliminates unwanted odours, ensuring that your fridge always smells fresh.",
-                "Spill-proof glass shelves contain spills and make cleanup easy, while the adjustable shelving provides flexible storage options."
+                "The built-in deodorizing filter eliminates unwanted odours, ensuring that your fridge always smells fresh."
             ],
             "stock": 15
             },
             {
                 "id": 3,
                 "catId": 2,
-                "title": "LG Front Load Washing Machine",
+                "title": "LG Front Load Washing Machine 8 kg",
                 "productCode": "LFW1234",
                 "image": "LGFrontLoadWashingMachine.jpeg",
                 "price": 4590,
@@ -70,16 +72,14 @@
                     "6 Motion Direct Drive technology moves the drum in multiple directions, providing a thorough yet gentle clean.",
                     "Steam Wash feature penetrates fabrics to eliminate dirt, allergens, and wrinkles, ensuring your clothes come out fresh and clean.",
                     "Inverter Direct Drive motor is not only energy efficient but also provides quieter operation and increased durability.",
-                    "SmartThinQ technology allows you to control and monitor your washing machine from your smartphone, offering convenience and flexibility.",
-                    "The TurboWash feature reduces washing time without compromising on cleaning performance, saving you time and energy.",
-                    "Child Lock function ensures the safety of your little ones by preventing them from accidentally changing the settings."
+                    "SmartThinQ technology allows you to control and monitor your washing machine from your smartphone, offering convenience and flexibility."
                 ],
                 "stock": 10
             },
             {
                 "id": 4,
                 "catId": 2,
-                "title": "Bosch Top Load Washing Machine",
+                "title": "Bosch Top Load Washing Machine 10 kg",
                 "productCode": "BTLW5678",
                 "image": "BoschTopLoadWashingMachine.jpeg",
                 "price": 3990,
@@ -93,9 +93,8 @@
                     "PowerWave Plus technology delivers a dynamic water flow system that provides thorough cleaning and gentle treatment of clothes.",
                     "DualDispenser ensures the optimal distribution of detergent and softener, enhancing washing results.",
                     "The One-Touch Start feature automatically selects the optimal wash program based on the load, making it convenient and easy to use.",
-                    "Magic Filter effectively gathers lint and fluff from your clothes, ensuring cleaner laundry and preventing clogging of the drainage system.",
-                    "Soft Closing Lid provides a gradual, gentle lid closure to prevent accidental injuries and improve user safety.",
-                    "The Drum Clean feature keeps the drum fresh and clean, ensuring hygiene and prolonging the lifespan of the washing machine."
+                    "Magic Filter effectively gathers lint and fluff from your clothes, ensuring cleaner laundry and preventing clogging of the drainage system."
+                    
                 ],
                 "stock": 12
             },
@@ -117,16 +116,14 @@
                     "Rapid Heating feature preheats the oven quickly, saving you time and energy.",
                     "The TFT display provides clear and easy-to-read information, making it simple to navigate through the various settings and functions.",
                     "EcoClean Direct coating reduces cleaning effort by breaking down grease and food residue as you cook.",
-                    "SoftClose door mechanism ensures gentle and quiet closing of the oven door, enhancing safety and convenience.",
-                    "Integrated meat probe allows you to monitor the internal temperature of your roast, ensuring perfect cooking results every time.",
-                    "The Sabbath mode is designed for religious observances, allowing the oven to operate at a preset temperature for an extended period."
+                    "SoftClose door mechanism ensures gentle and quiet closing of the oven door, enhancing safety and convenience."
                 ],
                 "stock": 8
             },
             {
                 "id": 6,
                 "catId": 3,
-                "title": "Bosch Built-In Oven",
+                "title": "Bosch Built-In Oven 71 litres",
                 "productCode": "BBO6789",
                 "image": "BoschBuiltInOven.jpeg",
                 "price": 7990,
@@ -142,15 +139,14 @@
                     "Pyrolytic self-cleaning function heats the oven to a high temperature to burn off grease and food residue, making cleaning effortless.",
                     "The intuitive control ring allows for precise and easy adjustments to settings and cooking times.",
                     "SoftClose door technology ensures the oven door closes gently and quietly, enhancing safety and convenience.",
-                    "Telescopic rails provide easy access to your dishes, allowing for safer handling of hot trays and pans.",
-                    "Built-in meat probe monitors the internal temperature of your food, ensuring perfectly cooked meals every time."
+                    "Telescopic rails provide easy access to your dishes, allowing for safer handling of hot trays and pans."
                 ],
                 "stock": 10
             },
             {
                 "id": 7,
                 "catId": 4,
-                "title": "Panasonic Microwave Oven",
+                "title": "Panasonic Microwave Oven 32 litres",
                 "productCode": "PMO1234",
                 "image": "PanasonicMicrowaveOven.jpeg",
                 "price": 2490,
@@ -165,16 +161,15 @@
                     "Genius Sensor automatically adjusts cooking time and power level for optimal results.",
                     "Turbo Defrost function speeds up defrosting time, making it more efficient and convenient.",
                     "The Keep Warm feature maintains the temperature of your food until it's ready to be served.",
-                    "Child Lock function prevents accidental operation, ensuring safety in households with children.",
-                    "Quick 30 function allows you to quickly start the microwave with a 30-second burst of high power.",
-                    "The sleek stainless steel design adds a modern touch to your kitchen and is easy to clean."
+                    "Child Lock function prevents accidental operation, ensuring safety in households with children."
+                    
                 ],
                 "stock": 25
             },
             {
                 "id": 8,
                 "catId": 4,
-                "title": "Samsung Countertop Microwave",
+                "title": "Samsung Countertop Microwave 28 litres",
                 "productCode": "SCM5678",
                 "image": "SamsungCountertopMicrowave.jpeg",
                 "price": 1990,
@@ -190,8 +185,7 @@
                     "Eco Mode reduces standby power consumption",
                     "Auto Cook functions.",
                     "Deodorization function.",
-                    "Child Safety Lock.",
-                    "LED display and intuitive controls."
+                    "Child Safety Lock."                   
                 ],
                 "stock": 30
             },
@@ -214,8 +208,7 @@
                     "LoadSensor automatically adjusts water and energy usage based on the load size, optimizing performance and efficiency.",
                     "VarioDrawer provides an extra level of flexibility for loading cutlery and smaller items, freeing up space in the lower basket.",
                     "HygienePlus option increases the temperature during the final rinse, ensuring hygienic cleaning and removing bacteria.",
-                    "Glass Protection technology gently cleans and protects delicate glassware, preventing damage and ensuring a sparkling finish.",
-                    "The Auto Program automatically selects the best cleaning cycle for your dishes, ensuring perfect results every time."
+                    "Glass Protection technology gently cleans and protects delicate glassware, preventing damage and ensuring a sparkling finish."                   
                 ],
                 "stock": 20
             },
@@ -237,11 +230,195 @@
                     "Zeolith drying technology ensures perfectly dry and spotless dishes by absorbing moisture and converting it to heat.",
                     "IntensiveZone option increases the water pressure in the lower basket for heavily soiled pots and pans, ensuring thorough cleaning.",
                     "TimeLight projects the remaining cycle time onto the floor, keeping you informed of the dishwasher’s status.",
-                    "FlexComfort baskets provide flexible and convenient loading options for different types of dishes and utensils.",
-                    "Machine Care program keeps your dishwasher clean and running smoothly by removing limescale and grease buildup.",
-                    "The AquaStop system offers 24/7 protection against water damage, providing peace of mind."
+                    "FlexComfort baskets provide flexible and convenient loading options for different types of dishes and utensils."
                 ],
                 "stock": 15
-            }
+            },
+            {
+                "id": 11,
+                "catId": 6, 
+                "title": "Samsung Smart TV 55 inches",
+                "productCode": "SSTV7890",
+                "image": "SamsungSmartTV.jpeg",
+                "price": 3590,
+                "sku": "345678",
+                "description": "The Samsung Smart TV SSTV7890 offers an immersive viewing experience with its 4K Ultra HD resolution and smart features. This TV provides seamless access to streaming services and apps, and its sleek design fits perfectly into any modern living room.",
+                "specs": {
+                    "dimensions": "72 x 124 x 8cm (H x W x D)",
+                    "screenSize": "55 inches",
+                    "resolution": "4K Ultra HD"
+                },
+                "features": [
+                    "4K Ultra HD resolution for stunning picture quality.",
+                    "Smart TV capabilities with access to popular streaming services.",
+                    "HDR technology for enhanced contrast and color.",
+                    "Built-in voice control for easy navigation.",
+                    "Multiple HDMI and USB ports for connectivity.",
+                    "Slim and stylish design.",
+                    "Energy-efficient performance."
+                ],
+                "stock": 40
+            },
+            {
+                "id": 12,
+                "catId": 6, 
+                "title": "LG OLED TV 4K Ultra HD",
+                "productCode": "LGOLED4567",
+                "image": "LGOLEDTV.jpeg",
+                "price": 4990,
+                "sku": "456789",
+                "description": "The LG OLED TV LGOLED4567 provides an exceptional viewing experience with its OLED technology, delivering perfect blacks and vibrant colors. It offers a range of smart features and a sleek design that enhances any living space.",
+                "specs": {
+                    "dimensions": "71 x 123 x 7cm (H x W x D)",
+                    "screenSize": "55 inches",
+                    "resolution": "4K Ultra HD"
+                },
+                "features": [
+                    "OLED technology for perfect blacks and vibrant colors.",
+                    "4K Ultra HD resolution for sharp and clear images.",
+                    "Smart TV functionality with access to streaming apps.",
+                    "HDR support for improved contrast and color.",
+                    "Voice control compatibility.",
+                    "Multiple connectivity options including HDMI and USB.",
+                    "Sleek and modern design."
+                ],
+                "stock": 35
+            },{
+                "id": 15,
+                "catId": 6,
+                "title": "Sony Bravia OLED TV 55 inches",
+                "productCode": "SBOLED5678",
+                "image": "SonyBraviaOLEDTV.jpeg",
+                "price": 6790,
+                "sku": "234567",
+                "description": "The Sony Bravia OLED TV SBOLED5678 offers an unparalleled viewing experience with its OLED technology and advanced features. Enjoy stunning picture quality, vibrant colors, and deep blacks. This smart TV provides seamless access to your favorite streaming services and apps.",
+                "specs": {
+                    "dimensions": "71 x 122 x 7cm (H x W x D)",
+                    "screenSize": "55 inches",
+                    "resolution": "4K Ultra HD"
+                },
+                "features": [
+                    "OLED technology for superior picture quality.",
+                    "4K Ultra HD resolution for crisp and clear visuals.",
+                    "Smart TV capabilities with access to popular streaming services.",
+                    "HDR support for enhanced contrast and color.",
+                    "Voice control compatibility for easy navigation.",
+                    "Multiple connectivity options including HDMI and USB.",
+                    "Slim and modern design."
+                ],
+                "stock": 25
+            },            
+            {
+                "id": 16,
+                "catId": 6,
+                "title": "Panasonic 4K TV 55 inches 4K Ultra HD" ,
+                "productCode": "PLED8901",
+                "image": "Panasonic4KLEDTV.jpeg",
+                "price": 3990,
+                "sku": "345678",
+                "description": "The Panasonic 4K LED TV PLED8901 combines stunning 4K resolution with smart features, offering a fantastic viewing experience. With its sleek design and advanced technology, this TV is perfect for any home entertainment setup.",
+                "specs": {
+                    "dimensions": "72 x 124 x 8cm (H x W x D)",
+                    "screenSize": "55 inches",
+                    "resolution": "4K Ultra HD"
+                },
+                "features": [
+                    "4K Ultra HD resolution for exceptional clarity.",
+                    "Smart TV functionality for streaming services and apps.",
+                    "HDR support for improved contrast and color.",
+                    "Voice control compatibility for easy operation.",
+                    "Multiple HDMI and USB ports for connectivity.",
+                    "Sleek and stylish design.",
+                    "Energy-efficient performance."
+                ],
+                "stock": 40
+            },            
+            {
+                "id": 13,
+                "catId": 7, 
+                "title": "Apple iMac 16GB 512GB SSD" ,
+                "productCode": "IMAC1234",
+                "image": "AppleiMac.jpeg",
+                "price": 8990,
+                "sku": "567890",
+                "description": "The Apple iMac IMAC1234 is a powerful and elegant desktop computer, featuring a stunning Retina display and advanced hardware. It is perfect for both professional and personal use, offering high performance and a sleek design.",
+                "specs": {
+                    "dimensions": "72 x 124 x 8cm (H x W x D)",
+                    "processor": "Apple M1",
+                    "ram": "16GB",
+                    "storage": "512GB SSD",
+                    "graphics": "Integrated 8-core GPU",
+                    "display": "24-inch Retina 4.5K"
+                },
+                "features": [
+                    "Apple M1 chip for high-speed performance.",
+                    "16GB RAM for smooth multitasking.",
+                    "512GB SSD for fast storage and data access.",
+                    "Integrated 8-core GPU for stunning visuals.",
+                    "24-inch Retina 4.5K display for incredible clarity.",
+                    "Multiple USB-C and Thunderbolt ports.",
+                    "Sleek and modern design."
+                ],
+                "stock": 25
+            },
+            {
+                "id": 14,
+                "catId": 7, 
+                "title": "Dell XPS Desktop i7 1TB SSD RTX 3060" ,
+                "productCode": "XPS5678",
+                "image": "DellXPSDesktop.jpeg",
+                "price": 6490,
+                "sku": "678901",
+                "description": "The Dell XPS Desktop XPS5678 combines powerful performance with a compact design, making it ideal for both work and play. Equipped with the latest hardware, it handles demanding tasks with ease and delivers an exceptional computing experience.",
+                "specs": {
+                    "dimensions": "72 x 124 x 8cm (H x W x D)",
+                    "processor": "Intel Core i7",
+                    "ram": "16GB",
+                    "storage": "1TB SSD",
+                    "graphics": "NVIDIA GeForce RTX 3060",
+                    "display": "N/A"
+                },
+                "features": [
+                    "Intel Core i7 processor for high-speed performance.",
+                    "16GB RAM for efficient multitasking.",
+                    "1TB SSD for ample storage and quick data access.",
+                    "NVIDIA GeForce RTX 3060 graphics card for stunning visuals.",
+                    "Multiple USB and HDMI ports for connectivity.",
+                    "Compact and stylish design.",
+                    "Advanced cooling system for optimal performance."
+                ],
+                "stock": 20
+            },
+            {
+                "id": 17,
+                "catId": 7,
+                "title": "HP Envy Desktop 16GB RAM 1TB SSD NVIDIA GeForce GTX 1660 Ti",
+                "productCode": "HPENVY5678",
+                "image": "HPEnvyDesktop.jpeg",
+                "price": 5490,
+                "sku": "678901",
+                "description": "The HP Envy Desktop HPENVY5678 offers powerful performance in a sleek and compact design. Equipped with the latest hardware, it is perfect for both work and entertainment. Enjoy smooth multitasking and exceptional computing experience with this versatile desktop.",
+                "specs": {
+                    "dimensions": "72 x 124 x 8cm (H x W x D)",
+                    "processor": "Intel Core i7",
+                    "ram": "16GB",
+                    "storage": "1TB SSD",
+                    "graphics": "NVIDIA GeForce GTX 1660 Ti",
+                    "display": "N/A"
+                },
+                "features": [
+                    "Intel Core i7 processor for high-speed performance.",
+                    "16GB RAM for efficient multitasking.",
+                    "1TB SSD for ample storage and quick data access.",
+                    "NVIDIA GeForce GTX 1660 Ti graphics card for stunning visuals.",
+                    "Multiple USB and HDMI ports for connectivity.",
+                    "Compact and stylish design.",
+                    "Advanced cooling system for optimal performance."
+                ],
+                "stock": 25
+            }            
+            
+                       
+            
     ]
 }
